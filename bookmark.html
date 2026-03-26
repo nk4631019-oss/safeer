@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>  
+<body>
+  <div class="container">
+    <h1>My Bookmark</h1>
+    <h2>Primary Bookmark</h2>
+
+    <form id="bookmarkForm" class="bookmark-form">
+      <input id="titleInput" type="text" placeholder="Bookmark name" required>
+      <input id="urlInput" type="url" placeholder="https://example.com" required>
+      <button type="submit">Add Bookmark</button>
+    </form>
+
+    <div id="bookmarkList">
+      <p class="bookmark-card"><a href="https://google.com" target="_blank">Open Google</a></p>
+      <p class="bookmark-card"><a href="https://facebook.com" target="_blank">Open Facebook</a></p>
+      <p class="bookmark-card"><a href="https://youtube.com" target="_blank">Open Youtube</a></p>
+      <p class="bookmark-card"><a href="https://codewithherry.com" target="_blank">Open Code with Herry</a></p>
+      <p class="bookmark-card"><a href="https://typingclub.com" target="_blank">Open typing club</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
